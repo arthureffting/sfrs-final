@@ -1,0 +1,17 @@
+{
+    "dataset": "iam",
+    "batch_size": 1,
+    "images_per_epoch": 200,
+    "testing_images_per_epoch": 10,
+    "stop_after_no_improvement": 200,
+    "learning_rate": 0.0001,
+    "tsa_size": 5,
+    "patch_ratio": 5,
+    "patch_size": 64,
+    "min_height": 8,
+    "name": "training-2",
+    "reset_threshold": 32,
+    "max_steps": 6,
+    "random_sol": true,
+    "output": "snapshots/lol"
+}

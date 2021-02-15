@@ -1,0 +1,17 @@
+{
+    "dataset": "iam",
+    "batch_size": 1,
+    "images_per_epoch": 2000,
+    "testing_images_per_epoch": 40,
+    "stop_after_no_improvement": 200,
+    "learning_rate": 1e-05,
+    "tsa_size": 5,
+    "patch_ratio": 5,
+    "patch_size": 64,
+    "min_height": 8,
+    "name": "training-orcas",
+    "reset_threshold": 16,
+    "max_steps": 6,
+    "random_sol": true,
+    "output": "snapshots/lol"
+}
